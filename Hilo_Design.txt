@@ -1,7 +1,10 @@
-Object(class): Dealer
+
+Object(class - design by Matt): Dealer
 Responsibility: Hold cards numbered 1-13
 
-Behavior: Show a card to the user
+Behavior: Show a card to the user.
+	Method: Using random number generator, generate card between 1-13. Send data to main(Casino) to calculate score.
+			Also send data to Player to show result.
 
 
 Main Function: Casino
